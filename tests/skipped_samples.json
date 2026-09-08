@@ -138,6 +138,23 @@
       "reason": "MD5 mismatch",
       "bug_url": "https://github.com/KhronosGroup/Vulkan-Video-Samples/issues/234",
       "date_added": "2026-08-20"
+    },
+    {
+      "name": "av1_superres_8bit",
+      "format": "vvs",
+      "drivers": [
+        "nvidia"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "reproduction": "always",
+      "reason": "fence timeout on certain GPUs",
+      "bug_url": "",
+      "date_added": "2026-09-08",
+      "devices": [
+        "26bb"
+      ]
     }
   ],
   "encode": [
